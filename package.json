@@ -1,0 +1,21 @@
+{
+  "name": "task59",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "dotenv": "^16.1.4",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  },
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=8.19.3"
+  }
+}
