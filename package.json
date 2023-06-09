@@ -12,6 +12,7 @@
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "dependencies": {
+    "concurrently": "^8.2.0",
     "debug": "~2.6.9",
     "dotenv": "^16.1.4",
     "express": "~4.16.1",
